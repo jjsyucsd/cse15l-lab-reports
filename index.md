@@ -30,10 +30,12 @@ The above is a horizional rule
 
 `This code is inline` by using backticks
 
+```
 # code block
 To do: 
 Need to complete Lab 1 Report
 Before Lab next week
+```
 
 
 
