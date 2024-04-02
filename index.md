@@ -28,7 +28,9 @@ Markdown Testing:
 ---
 The above is a horizional rule
 
-'Inline code' with backticks
+`This code is inline` by using backticks
+
+
 
 
 
