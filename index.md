@@ -28,5 +28,8 @@ Markdown Testing:
 ---
 The above is a horizional rule
 
+'This code is inline'
+
+
 
 
