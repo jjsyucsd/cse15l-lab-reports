@@ -36,6 +36,7 @@ To do:
 Need to complete Lab 1 Report
 Before Lab next week
 ```
+Commit changes
 
 
 
