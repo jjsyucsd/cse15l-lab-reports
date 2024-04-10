@@ -11,12 +11,16 @@ In Week 1 lab, we covered three basic filesystem commands:
 The command `cd` stands for change directory. It is used to change the current working directory. Using the `cd` command with no arguments takes you to your home directory. Using the command with a path to a directory as an argument will move the curent working directory into the specified directory. Using the command with a path to a file as an argument will result in an error. 
 
 Example 1: Using the `cd` command with no arguments
+In this example, 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
+/workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ cd
+@jjsyucsd ➜ ~ $ pwd
+/home/codespace
+@jjsyucsd ➜ ~ $ 
 ```
+
 
 Example 2: Using the `cd` command with a path to a directory
 ```
