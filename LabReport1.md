@@ -115,11 +115,13 @@ cat: lecture1: Is a directory
 
 Example 3: Using the `cat` command with a path to a file
 
+In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cat` command is run is still `/workspaces`. After the `cat` command is run, we get the output `Hello World!`. This is not an error, as running the `cat` command with a path to a file will display the contents of the specified file (en-us.txt) in the terminal. This tells us that the file `en-us.txt` contains the text `Hello World!`. 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ cat lecture1/messages/en-us.txt
+Hello World!
+@jjsyucsd ➜ /workspaces $ 
 ```
 
 ---
