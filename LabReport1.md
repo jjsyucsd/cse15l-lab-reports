@@ -92,7 +92,7 @@ The command `cat` stands for concatenate. It is used to display the contents of 
 
 Example 1: Using the `cat` command with no arguments
 
-In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cat` command is run is `/workspaces`. After the `cat` command is run, we are prompted to enter text into the terminal. We type "hellohello" as the text we want printed to the terminal, then press `Ctrl + D`to submit the text. This is not an error, as running the `cat` command with no arguments will allow us, the user, to specify text to be printed to the terminal.
+In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cat` command is run is `/workspaces`. After the `cat` command is run, we are prompted to enter text into the terminal. We type "hellohello" as the text we want printed to the terminal, then press `Ctrl + D`to end input and  submit the text. This is not an error, as running the `cat` command with no arguments will allow us, the user, to specify text to be printed to the terminal.
 ```
 @jjsyucsd ➜ /workspaces $ pwd
 /workspaces
