@@ -53,11 +53,12 @@ bash: cd: Hello.java: Not a directory
 The command `ls` stands for list. It is used to list the contents of a directory. Using the `ls` command with no arguments will list the contents in the current working directory. Using the command with a path to a directory as an argument will list the contents of the specified directory. Using the command with a path to a file as an argument will result in listing information regarding the specified file.
 
 Example 1: Using the `ls` command with no arguments
+In this example, I will use the `ls` command to list the contents of the directory `workspaces`. First we use the `pwd` command to verify that we are in the correct directory. The **absolute path** to the working directory **right before** the `ls` command is run is `/workspaces`; this tells us we are in the correct directory. After the `ls` command is run, we get the output `lecture1`. This is not an error, as running the `ls` command with no arguments will list the contents in the current working directory (which is `workspaces`). This tells us that the directory `workspaces` contains only the `lecture1` directory. 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ ls
+lecture1
 ```
 
 Example 2: Using the `ls` command with a path to a directory
