@@ -11,9 +11,9 @@ In Week 1 lab, we covered three basic filesystem commands:
 The command `cd` stands for change directory. It is used to change the current working directory. Using the `cd` command with no arguments takes you to your home directory. Using the command with a path to a directory as an argument will move the curent working directory into the specified directory. Using the command with a path to a file as an argument will result in an error. 
 
 Example 1: Using the `cd` command with no arguments
-In this example, 
+In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/workspaces/lecture1`. After the `cd` command is run, we use the `pwd` command again and determine the current working directory has changed to `/home/codespace`. This is not an error, as running the `cd` command with no arguments takes us out of our personal workspace to the home directory on the GitHub server that hosts codespaces.
 ```
-@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd //Using pwd command to determine the current working directory
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd 
 /workspaces/lecture1 
 @jjsyucsd ➜ /workspaces/lecture1 (main) $ cd
 @jjsyucsd ➜ ~ $ pwd
@@ -23,11 +23,14 @@ In this example,
 
 
 Example 2: Using the `cd` command with a path to a directory
+Continuing were we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/home/codespace`. After the `cd` command is run, we use the `pwd` command again and determine the current working directory has changed to `/workspaces/lecture1`. This is not an error, as running the `cd` command with a path to a directory takes us out of the home directory and into the specified directory (in this case, back to my personal workspace).
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ ~ $ pwd
+/home/codespace
+@jjsyucsd ➜ ~ $ cd /workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
+/workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ 
 ```
 
 Example 3: Using the `cd` command with a path to a file
