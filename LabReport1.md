@@ -83,7 +83,6 @@ Continuing where we left off, we first use the `pwd` command to identify the cur
 /workspaces
 @jjsyucsd ➜ /workspaces $ ls lecture1/messages/en-us.txt
 lecture1/messages/en-us.txt
-@jjsyucsd ➜ /workspaces $ 
 ```
 
 ---
