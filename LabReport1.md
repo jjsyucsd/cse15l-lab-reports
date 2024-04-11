@@ -76,11 +76,14 @@ Hello.class  Hello.java  README  messages
 ```
 
 Example 3: Using the `ls` command with a path to a file
+
+Continuing where we left off, we first use the `pwd` command to identify the current working directory we are in. The **absolute path** to the working directory **right before** the `ls` command is run is still `/workspaces`. After the `ls` command is run, we get the output `lecture1/messages/en-us.txt`. This is not an error, as running the `ls` command with a path to a file will list information regarding the file (specifically the file name). This tells us that the path is valid and that file exists at the location specified. 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ ls lecture1/messages/en-us.txt
+lecture1/messages/en-us.txt
+@jjsyucsd ➜ /workspaces $ 
 ```
 
 ---
