@@ -91,14 +91,19 @@ lecture1/messages/en-us.txt
 The command `cat` stands for concatenate. It is used to display the contents of files in the terminal by reading and printing file contents. Using the command with no arguments allows the user to type what text they would like to print to terminal. Using the command with a path to a directory as an argument will result in an error. Using the command with a path to a file will display the contents of the specified file in the terminal.
 
 Example 1: Using the `cat` command with no arguments
+
+In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cat` command is run is `/workspaces`. After the `cat` command is run, we are prompted to enter text into the terminal that we would like printed out and use Ctrl + D to submit the text. This is not an error, as running the `cat` command with no arguments will allow us, the user, to type what text we would like printed to the terminal.
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ cat
+hellohello
+hellohello
+@jjsyucsd ➜ /workspaces $ 
 ```
 
 Example 2: Using the `cat` command with a path to a directory
+
 ```
 # code block
 To do: 
@@ -107,6 +112,7 @@ Before Lab next week
 ```
 
 Example 3: Using the `cat` command with a path to a file
+
 ```
 # code block
 To do: 
