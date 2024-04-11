@@ -34,11 +34,17 @@ Continuing were we left off, we first use the `pwd` command to determine the cur
 ```
 
 Example 3: Using the `cd` command with a path to a file
+Continuing were we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/workspaces/lecture1`. We then use the `ls` command (described in detail below) to find a file in the current working directory; we choose `Hello.java`. This results in an error, as `Hello.java` is not a directory. After the `cd` command is run, we use the `pwd` command again to confirm that the current working directory remains unchanged and is still `/workspaces/lecture1`. 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
+/workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ ls
+Hello.class  Hello.java  README  messages
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ cd Hello.java
+bash: cd: Hello.java: Not a directory
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
+/workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ 
 ```
 
 ---
