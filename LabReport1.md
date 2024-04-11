@@ -13,8 +13,8 @@ The command `cd` stands for change directory. It is used to change the current w
 Example 1: Using the `cd` command with no arguments
 In this example, 
 ```
-@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
-/workspaces/lecture1
+@jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd //Using pwd command to determine the current working directory
+/workspaces/lecture1 
 @jjsyucsd ➜ /workspaces/lecture1 (main) $ cd
 @jjsyucsd ➜ ~ $ pwd
 /home/codespace
