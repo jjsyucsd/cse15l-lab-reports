@@ -104,11 +104,13 @@ hellohello
 
 Example 2: Using the `cat` command with a path to a directory
 
+In this example, we initially use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cat` command is run is still `/workspaces`. We then run the `cat` command with a path to the `lecture1` directory, which results in an error. This error is expected because the `cat` command is designed to concatenate and display the contents of files, not directories.
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ cat lecture1
+cat: lecture1: Is a directory
+@jjsyucsd ➜ /workspaces $ 
 ```
 
 Example 3: Using the `cat` command with a path to a file
