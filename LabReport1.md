@@ -8,7 +8,7 @@ In Week 1 lab, we covered three basic filesystem commands:
 
 ## Command 1: `cd`
 
-The command `cd` stands for change directory. It is used to change the current working directory. Using the `cd` command with no arguments takes you to your home directory. Using the command with a path to a directory as an argument will move the curent working directory into the specified directory. Using the command with a path to a file as an argument will result in an error. 
+The command `cd` stands for change directory. It is used to change the current working directory. Using the `cd` command with no arguments takes you to your home directory. Using the command with a path to a directory as an argument will move the current working directory into the specified directory. Using the command with a path to a file as an argument will result in an error. 
 
 Example 1: Using the `cd` command with no arguments
 
