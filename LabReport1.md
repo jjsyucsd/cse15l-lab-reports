@@ -23,7 +23,7 @@ In this example, we initially use the `pwd` command to determine the current wor
 
 
 Example 2: Using the `cd` command with a path to a directory
-Continuing were we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/home/codespace`. After the `cd` command is run, we use the `pwd` command again and determine the current working directory has changed to `/workspaces/lecture1`. This is not an error, as running the `cd` command with a path to a directory takes us out of the home directory and into the specified directory (in this case, back to my personal workspace).
+Continuing where we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/home/codespace`. After the `cd` command is run, we use the `pwd` command again and determine the current working directory has changed to `/workspaces/lecture1`. This is not an error, as running the `cd` command with a path to a directory takes us out of the home directory and into the specified directory (in this case, back to my personal workspace).
 ```
 @jjsyucsd ➜ ~ $ pwd
 /home/codespace
@@ -34,7 +34,7 @@ Continuing were we left off, we first use the `pwd` command to determine the cur
 ```
 
 Example 3: Using the `cd` command with a path to a file
-Continuing were we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/workspaces/lecture1`. We then use the `ls` command (described in detail below) to find a file in the current working directory; we choose `Hello.java`. This results in an error, as `Hello.java` is not a directory. After the `cd` command is run, we use the `pwd` command again to confirm that the current working directory remains unchanged and is still `/workspaces/lecture1`. 
+Continuing where we left off, we first use the `pwd` command to determine the current working directory. The **absolute path** to the working directory **right before** the `cd` command is run is `/workspaces/lecture1`. We then use the `ls` command (described in detail below) to find a file in the current working directory; we choose `Hello.java`. This results in an error, as `Hello.java` is not a directory. After the `cd` command is run, we use the `pwd` command again to confirm that the current working directory remains unchanged and is still `/workspaces/lecture1`. 
 ```
 @jjsyucsd ➜ /workspaces/lecture1 (main) $ pwd
 /workspaces/lecture1
@@ -62,11 +62,12 @@ lecture1
 ```
 
 Example 2: Using the `ls` command with a path to a directory
+Continuing where we left off, we first use the `pwd` command to identify the current working directory we are in. The **absolute path** to the working directory **right before** the `ls` command is run is `/workspaces`. After the `ls` command is run, we get the output `Hello.class  Hello.java  README  messages`. This is not an error, as running the `ls` command with a path to a directory will list the contents in the specified directory (which is `lecture1` in this case). This tells us that the directory `lecture1` contains the files `Hello.class  Hello.java  README  messages`. 
 ```
-# code block
-To do: 
-Need to complete Lab 1 Report
-Before Lab next week
+@jjsyucsd ➜ /workspaces $ pwd
+/workspaces
+@jjsyucsd ➜ /workspaces $ ls lecture1
+Hello.class  Hello.java  README  messages
 ```
 
 Example 3: Using the `ls` command with a path to a file
