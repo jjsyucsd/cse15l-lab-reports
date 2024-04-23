@@ -31,9 +31,12 @@ This screenshot shows me running `ls` locally on the command line of my computer
 This screenshot shows me running `ls` remotely on the command line of the `ieng6` machine with the **absolute path** to the *public* key for my SSH key for loging into `ieng6`.
 ![Image](Lab2Photo5.png)
 
-This screenshot shows a terminal interaction where I logged into my `ieng6` account wihtout being prompted for a password.
+This screenshot shows a terminal interaction where I logged into my `ieng6` account without being prompted for a password.
 ![Image](Lab2Photo6.png)
 
 ---
 ## Part 3: What I Learned
+
+The two most significant things I have learned from lab in week 2 and 3 that I didn't know prior are how to use the `curl` command and how to `SSH` remotely to `ieng6`. Knowing the `curl` command allows me to interact with web servers directly through the command line without having to use the browser (as demonstrated in Skill Demo 1). Learning to use SSH for remote access allows me to access my `ieng6` machine and related files from a separate location, which lets me access the processing power of my `ieng6` machine even if the laptop I am using remotely is underpowered.
+
 ---
