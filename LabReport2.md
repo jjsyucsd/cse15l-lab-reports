@@ -37,6 +37,6 @@ This screenshot shows a terminal interaction where I logged into my `ieng6` acco
 ---
 ## Part 3: What I Learned
 
-The two most significant things I have learned from lab in week 2 and 3 that I didn't know prior are how to use the `curl` command and how to `SSH` remotely to `ieng6`. Knowing the `curl` command allows me to interact with web servers directly through the command line without having to use the browser (as demonstrated in Skill Demo 1). Learning to use SSH for remote access allows me to access my `ieng6` machine and related files from a separate location, which lets me access the processing power of my `ieng6` machine even if the laptop I am using remotely is underpowered.
+The two most significant things I have learned from lab in week 2 and 3 that I didn't know prior are how to use the `curl` command and how to `SSH` remotely to `ieng6`. Knowing the `curl` command allows me to interact with web servers directly through the command line without having to use the browser (as demonstrated in Skill Demo 1). Learning to use `SSH` for remote access allows me to access my `ieng6` machine and related files from a separate location, which lets me access the processing power of my `ieng6` machine even if the laptop I am using remotely is underpowered.
 
 ---
