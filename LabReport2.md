@@ -2,7 +2,7 @@ UCSD CSE15L Spring 2024 - Week 4
 # Lab Report 2 
 ---
 ## Part 1: `ChatServer`
-The screenshot below shows the code for my ChatServer.
+The screenshot below shows the code for my `ChatServer`.
 ![Image](Lab2Photo1.png)
 
 Running the first `/add-message` command:
