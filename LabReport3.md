@@ -64,7 +64,7 @@ Option 1: `grep -i` for case insensitive search
 
 Option 2: `grep -c` for displaying the count of number of matches
 
-* Example 1:
+* Example 1: 
 
 * Example 2:
 
