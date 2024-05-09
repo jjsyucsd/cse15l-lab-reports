@@ -56,25 +56,7 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 
 For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: [grep command](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command)
 
-Option 1: `grep -i` for case insensitive search
-
-* Example 1:
-
-* Example 2:
-
-Option 2: `grep -c` for displaying the count of number of matches
-
-* Example 1: 
-
-* Example 2:
-
-Option 3: `grep -v` to invert the pattern match
-
-* Example 1:
-
-* Example 2:
-
-Option 4: `grep -r` to search recursively for a pattern in the directory
+Option 1: `grep -r` to search recursively for a pattern in the directory
 
 * Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string "middle-class".
 ```
@@ -157,6 +139,36 @@ jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
 jake@Jakes-MacBook-Pro technical %
 ```
 
+Option 2: `grep -i` for case insensitive search
+
+* Example 1: In this example, we use `grep -r` to search the text file `rr37.txt` located in the biomed subdirectory for the string "ambulatory".
+```
+jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
+
+        practice, accounting for about 1% of all ambulatory visits
+        ambulatory care for asthma, making this an unlikely
+jake@Jakes-MacBook-Pro biomed %
+```
+
+* Example 2: In this example, we use `grep -r` to search the text file `preface.txt` located in the 911report subdirectory for the string "lethal".
+```
+jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
+
+            We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
+jake@Jakes-MacBook-Pro 911report %
+```
+
+Option 3: `grep -c` for displaying the count of number of matches
+
+* Example 1: 
+
+* Example 2:
+
+Option 4: `grep -v` to invert the pattern match
+
+* Example 1:
+
+* Example 2:
 
 
 
