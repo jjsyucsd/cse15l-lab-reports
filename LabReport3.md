@@ -63,8 +63,19 @@ Option 2: `grep -c` for displaying the count of number of matches
 Option 3: `grep -v` to invert the pattern match
 
 Option 4: `grep -r` to search recursively for a pattern in the directory
+
 *Example 1:
+```
+jake@Jakes-MacBook-Pro technical % grep -r middle-class
+./government/Media/Raising_the_Bar.txt:His middle-class upbringing in the '50s and '60s produced a
+./government/Media/Working_for_Free.txt:button-down shirts, Zucker grew up in an upper-middle-class enclave
+./government/Media/A_helping_hand.txt:the need despite having a middle-class upbringing. But a
+./911report/chapter-5.txt:                middle-class family headed by his father, an attorney. After graduating from Cairo
+jake@Jakes-MacBook-Pro technical %
+```
+
 *Example 2:
+
 
 
 
