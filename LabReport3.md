@@ -141,7 +141,7 @@ jake@Jakes-MacBook-Pro technical %
 
 Option 2: `grep -i` for case insensitive search
 
-* Example 1: In this example, we use `grep -r` to search the text file `rr37.txt` located in the biomed subdirectory for all lines that contain the string "ambulatory".
+* Example 1: In this example, we use `grep -i` to search the text file `rr37.txt` located in the biomed subdirectory for all lines that contain the string "ambulatory".
 ```
 jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
 
@@ -150,7 +150,7 @@ jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
 jake@Jakes-MacBook-Pro biomed %
 ```
 
-* Example 2: In this example, we use `grep -r` to search the text file `preface.txt` located in the 911report subdirectory for all lines that contain the string "lethal".
+* Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the 911report subdirectory for all lines that contain the string "lethal".
 ```
 jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
 
@@ -164,9 +164,15 @@ Option 3: `grep -c` for displaying the count of number of matches
 ```
 jake@Jakes-MacBook-Pro biomed % grep -c "genes" bcr571.txt
 10
+jake@Jakes-MacBook-Pro biomed %
 ```
 
-* Example 2:
+* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the 911report subdirectory) that contain the string "planes". The output tells us there are 30 lines within this text file containing the word planes.
+```
+jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
+30
+jake@Jakes-MacBook-Pro 911report %
+```
 
 Option 4: `grep -v` to invert the pattern match
 
