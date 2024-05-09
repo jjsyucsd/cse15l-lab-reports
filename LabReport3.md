@@ -50,3 +50,8 @@ static void reverseInPlace(int[] arr) {
 ```
 5. Description of why the fix addresses the issue:
 The fix resolves the issue in the original `reverseInPlace` method by guaranteeing that the loop only iterates through half of the array; this addresses the issue where elements are overwritten before they can be swapped to the correct position. The temporary variable `temp` allows the method to store the value of `arr[i]` before it is overwritten. These changes will address the failure-inducing input such that the test passes and the input no longer returns the incorrectly reversed array `{4, 3, 3, 4}`.
+
+---
+## Part 2: Researching Commands
+
+
