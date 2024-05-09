@@ -58,7 +58,7 @@ For this portion of the lab report, I chose the command `grep`. I learned about 
 
 Option 1: `grep -r` to search recursively for a pattern in the directory
 
-* Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string "middle-class".
+* Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string `"middle-class"`.
 ```
 jake@Jakes-MacBook-Pro technical % grep -r middle-class
 ./government/Media/Raising_the_Bar.txt:His middle-class upbringing in the '50s and '60s produced a
@@ -68,7 +68,7 @@ jake@Jakes-MacBook-Pro technical % grep -r middle-class
 jake@Jakes-MacBook-Pro technical %
 ```
 
-* Example 2: In this example, we use `grep -r` to search all files within the `./technical` for email addresses by matching the pattern "@."
+* Example 2: In this example, we use `grep -r` to search all files within the `./technical` for email addresses by matching the pattern `"@."`.
 
 ```
 jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
@@ -141,7 +141,7 @@ jake@Jakes-MacBook-Pro technical %
 
 Option 2: `grep -i` for case insensitive search
 
-* Example 1: In this example, we use `grep -i` to search the text file `rr37.txt` located in the biomed subdirectory for all lines that contain the string "ambulatory".
+* Example 1: In this example, we use `grep -i` to search the text file `rr37.txt` located in the `biomed` subdirectory for all lines that contain the string `"ambulatory"`.
 ```
 jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
 
@@ -150,7 +150,7 @@ jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
 jake@Jakes-MacBook-Pro biomed %
 ```
 
-* Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the 911report subdirectory for all lines that contain the string "lethal".
+* Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the `911report` subdirectory for all lines that contain the string `"lethal"`.
 ```
 jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
 
@@ -160,14 +160,14 @@ jake@Jakes-MacBook-Pro 911report %
 
 Option 3: `grep -c` for displaying the count of number of matches
 
-* Example 1: In this example, we use `grep -c` to find the number of lines within the text file `bcr571.txt` (located in the biomed subdirectory) that contain the string "genes". The output tells us there are 10 lines within the text file containing the word genes.
+* Example 1: In this example, we use `grep -c` to find the number of lines within the text file `bcr571.txt` (located in the `biomed` subdirectory) that contain the string `"genes"`. The output tells us there are 10 lines within the text file containing the word genes.
 ```
 jake@Jakes-MacBook-Pro biomed % grep -c "genes" bcr571.txt
 10
 jake@Jakes-MacBook-Pro biomed %
 ```
 
-* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the 911report subdirectory) that contain the string "planes". The output tells us there are 30 lines within this text file containing the word planes.
+* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word planes.
 ```
 jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
 30
@@ -176,7 +176,7 @@ jake@Jakes-MacBook-Pro 911report %
 
 Option 4: `grep -v` to invert the pattern match
 
-* Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the plos subdirectory) for all lines that do not contain the string "institutions".
+* Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the `plos` subdirectory) for all lines that do not contain the string `"institutions"`.
 ```
 jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt 
         The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
@@ -190,7 +190,7 @@ jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt
 jake@Jakes-MacBook-Pro plos % 
 ```
 
-* Example 2: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the media subdirectory in the government subdirectory) for all lines that do not contain the string "water".
+* Example 2: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the `media` subdirectory in the `government` subdirectory) for all lines that do not contain the string `"water"`.
 
 
 ```
