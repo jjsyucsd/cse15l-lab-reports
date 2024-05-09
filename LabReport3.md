@@ -69,6 +69,7 @@ jake@Jakes-MacBook-Pro technical %
 ```
 
 * Example 2: In this example, we use `grep -r` to search all files within the `./technical` for email addresses by matching the pattern "@."
+
 ```
 jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
 
