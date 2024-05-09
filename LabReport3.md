@@ -18,12 +18,12 @@ For this portion of the lab report, I chose to focus on the the bug present in t
 
 2. An input that doesn't induce a failure (as a JUnit test) is shown in the code block below:
 ```
-@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
+@Test
+    public void testReverseInPlace() {
+    	int[] input1 = { 3 };
+    	ArrayExamples.reverseInPlace(input1);
+    	assertArrayEquals(new int[]{ 3 }, input1);
+    }
 ```
 
 3. The symptom, as the output of running the two tests above, is shown in the screenshot below. Note that one test passes and one test fails:
