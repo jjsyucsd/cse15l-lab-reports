@@ -243,6 +243,24 @@ jake@Jakes-MacBook-Pro media %
 
 * Example 2: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the plos subdirectory) for all lines that do not contain the string "institutions".
 ```
+jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt
+
+  
+    
+      
+        
+        The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
+        Constructing Ethical Guidelines for Biohistory” [1], neither advocates nor argues against
+        biohistorical research; instead, it points out that such investigations are currently
+        taking place without guidelines—ethical, scientific, moral, or religious. The question
+        governments, medical examiners, family members, or intrepid biographers are to be given
+        permission? Who is to decide what is “historically significant”? Not to mention the
+        meta-question: who is to decide who is to decide? I apologize to the authors if my brief
+        comments [2] implied that they took a position on this issue.
+      
+    
+  
+jake@Jakes-MacBook-Pro plos % 
 ```
 
 
