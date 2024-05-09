@@ -58,13 +58,25 @@ For this portion of the lab report, I chose the command `grep`. I learned about 
 
 Option 1: `grep -i` for case insensitive search
 
+* Example 1:
+
+* Example 2:
+
 Option 2: `grep -c` for displaying the count of number of matches
+
+* Example 1:
+
+* Example 2:
 
 Option 3: `grep -v` to invert the pattern match
 
+* Example 1:
+
+* Example 2:
+
 Option 4: `grep -r` to search recursively for a pattern in the directory
 
-*Example 1:
+* Example 1:
 ```
 jake@Jakes-MacBook-Pro technical % grep -r middle-class
 ./government/Media/Raising_the_Bar.txt:His middle-class upbringing in the '50s and '60s produced a
@@ -74,7 +86,7 @@ jake@Jakes-MacBook-Pro technical % grep -r middle-class
 jake@Jakes-MacBook-Pro technical %
 ```
 
-*Example 2:
+* Example 2:
 
 
 
