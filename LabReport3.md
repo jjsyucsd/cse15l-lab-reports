@@ -54,6 +54,6 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 ---
 ## Part 2: Researching Commands
 
-For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: [title](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command)
+For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: [grep command](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command)
 
 
