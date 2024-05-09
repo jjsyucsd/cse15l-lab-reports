@@ -3,7 +3,7 @@ UCSD CSE15L Spring 2024 - Week 6
 ---
 ## Part 1: Bugs
 
-For this portion of the lab report, I chose to focus on the the bug present in the `reverseInPlace` method in the `ArrayExamples` class.
+For this portion of the lab report, I chose to focus on the bug present in the `reverseInPlace` method in the `ArrayExamples` class.
 
 1. A failure-inducing input for the buggy program (as a JUnit test) is shown in the code block below:
 ```
