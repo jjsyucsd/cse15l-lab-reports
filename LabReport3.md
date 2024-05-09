@@ -36,3 +36,4 @@ Here is the code for the `reverseInPlace` method:
 ```
 
 3. The symptom, as the output of running the two tests above, is shown in the screenshot below. Note that one test passes and one test fails:
+![Image](LabReport3Screenshot1.png)
