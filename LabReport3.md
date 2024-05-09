@@ -150,6 +150,7 @@ jake@Jakes-MacBook-Pro 911report %
 Option 4: `grep -v` to invert the pattern match
 
 * Example 1: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the media subdirectory in the government subdirectory) for all lines that do not contain the string "water".
+
 ```
 jake@Jakes-MacBook-Pro media % grep -v "water" water_fees.txt
 It's either a big increase or a loss of service for the Tulare
