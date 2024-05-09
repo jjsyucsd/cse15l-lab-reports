@@ -4,24 +4,15 @@ UCSD CSE15L Spring 2024 - Week 6
 ## Part 1: Bugs
 
 For this portion of the lab report, I chose to focus on the the bug present in the `reverseInPlace` method in the `ArrayExamples` class.
-Here is the code for the `reverseInPlace` method: 
-```
-// Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
-```
 
 1. A failure-inducing input for the buggy program (as a JUnit test) is shown in the code block below:
 ```
 @Test
-  public void testReverseInPlace_FailureInducing() {
+  public void testReverseInPlace() {
       int[] original = {1, 2, 3, 4};
       ArrayExamples.reverseInPlace(original);
-      int[] expected = {4, 3, 2, 1};  // Expected output if the array was correctly reversed
-      assertArrayEquals("The array should be reversed", expected, original);
+      int[] expected = {4, 3, 2, 1};  
+      assertArrayEquals("The reversed array should be, expected, original);
   }
 ```
 
@@ -37,3 +28,25 @@ Here is the code for the `reverseInPlace` method:
 
 3. The symptom, as the output of running the two tests above, is shown in the screenshot below. Note that one test passes and one test fails:
 ![Image](LabReport3Screenshot1.png)
+
+4. The original unmodified buggy `reverseInPlace` method:
+```
+// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+The fixed `reverseInPlace` method after changing the code:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = temp;
+    }
+}
+```
+5. Description of why the fix addresses the issue:
+The fix resolves the issue in the original `reverseInPlace` method by guaranteeing that the loop only iterates through half of the array; this addresses the issue where elements are overwritten before they can be swapped to the correct position. The temporary variable `temp` allows the method to store the value of `arr[i]` before it is overwritten. These changes will address the failure-inducing input such that the test passes and the input no longer returns the incorrectly reversed array `{4, 3, 3, 4}`.
