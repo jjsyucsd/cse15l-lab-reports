@@ -11,7 +11,7 @@ For this portion of the lab report, I chose to focus on the bug present in the `
   public void testReverseInPlace_FailureInducing() {
     int[] original = {1, 2, 3, 4};
     ArrayExamples.reverseInPlace(original);
-    int[] expected = {4, 3, 2, 1};  // Expected output if the array was correctly reversed
+    int[] expected = {4, 3, 2, 1};
     assertArrayEquals("The array should be reversed", expected, original);
   }
 ```
