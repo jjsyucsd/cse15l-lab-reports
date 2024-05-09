@@ -72,7 +72,6 @@ jake@Jakes-MacBook-Pro technical %
 
 ```
 jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
-
 ./government/Gen_Account_Office/d0269g.txt:calboml@gao.gov,or Tom Broderick, Assistant Director,
 ./government/Gen_Account_Office/d0269g.txt:broderickt@gao.gov
 ./government/Gen_Account_Office/d0269g.txt:fraudnet@gao.gov,or
@@ -153,11 +152,6 @@ Option 4: `grep -v` to invert the pattern match
 * Example 1: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the media subdirectory in the government subdirectory) for all lines that do not contain the string "water".
 ```
 jake@Jakes-MacBook-Pro media % grep -v "water" water_fees.txt
-
-
-
-
-
 It's either a big increase or a loss of service for the Tulare
 County town.
 By Joan Obra
