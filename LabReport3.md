@@ -62,7 +62,11 @@ Option 2: `grep -c` for displaying the count of number of matches
 
 Option 3: `grep -v` to invert the pattern match
 
-Option 4: `grep -n` to show the line number while displaying the output
+Option 4: `grep -r` to search recursively for a pattern in the directory
+*Example 1:
+*Example 2:
+
+
 
 
 
