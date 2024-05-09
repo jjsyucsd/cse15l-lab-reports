@@ -57,8 +57,12 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: [grep command](https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command)
 
 Option 1: `grep -i` for case insensitive search
+
 Option 2: `grep -c` for displaying the count of number of matches
+
 Option 3: `grep -v` to invert the pattern match
+
 Option 4: `grep -n` to show the line number while displaying the output
+
 
 
