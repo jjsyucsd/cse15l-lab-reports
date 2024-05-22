@@ -56,7 +56,7 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 
 For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
-Option 1: `grep -r` (Recursive Search for a pattern in the directory):
+Option 1: `grep -r` (Recursive Search for a Pattern in the Directory):
 The `grep -r` option searches recursively through all files in a directory and its subdirectories for a specific pattern. This is useful for finding matches in large directories without manually searching each file.
 
 * Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string `"middle-class"`.
@@ -68,6 +68,7 @@ jake@Jakes-MacBook-Pro technical % grep -r middle-class
 ./911report/chapter-5.txt:                middle-class family headed by his father, an attorney. After graduating from Cairo
 jake@Jakes-MacBook-Pro technical %
 ```
+Explanation: This command recursively searches for the term "middle-class" in all files within the `./technical` directory and its subdirectories. This is useful for finding specific terms across a large set of documents, such as a volume of research papers. It allows for quick location of relevant information without the tedium of manually searching through every single file, which saves time when dealing with large datasets. 
 
 * Example 2: In this example, we use `grep -r` to search all files within the `./technical` for email addresses by matching the pattern `"@."`.
 
