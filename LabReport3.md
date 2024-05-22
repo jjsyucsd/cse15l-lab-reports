@@ -54,7 +54,7 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 ---
 ## Part 2: Researching Commands
 
-For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
+For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksforGeeks page: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
 Option 1: `grep -r` (Recursive Search for a Pattern in the Directory):
 The `grep -r` option searches recursively through all files in a directory and its subdirectories for a specific pattern. This is useful for finding matches in large directories without manually searching each file.
