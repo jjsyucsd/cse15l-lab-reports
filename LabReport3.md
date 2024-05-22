@@ -164,14 +164,14 @@ jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
             We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
 jake@Jakes-MacBook-Pro 911report %
 ```
-Explanation: This command searches for the term "lethal", in a case-insensitive manner, in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including matches that may have different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
+Explanation: This command searches for the term "lethal", in a case-insensitive manner, in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including those with different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
 
 Citation: I learned about the `grep -i` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
 Option 3: `grep -c` (Count Matches):
 The `grep -c` option counts the number of lines that match a given pattern. This is useful for determining how many times a pattern occurs in a file.
 
-* Example 1: In this example, we use `grep -c` to find the number of lines within the text file `bcr571.txt` (located in the `biomed` subdirectory) that contain the string `"genes"`. The output tells us there are 10 lines within the text file containing the word genes.
+* Example 1: In this example, we use `grep -c` to find the number of lines within the text file `bcr571.txt` (located in the `biomed` subdirectory) that contain the string `"genes"`. The output tells us there are 10 lines within the text file containing the word "genes".
 ```
 jake@Jakes-MacBook-Pro biomed % grep -c "genes" bcr571.txt
 10
@@ -179,7 +179,7 @@ jake@Jakes-MacBook-Pro biomed %
 ```
 Explanation: This command counts the number of lines containing the term "genes" in the file `bcr571.txt` within the `./biomed` directory. This is useful for quantifying the presence of specific terms in a document for data analysis. It is very helpful in determining the frequency of certain keywords in research documents or logs.
 
-* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `./911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word planes.
+* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `./911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word "planes".
 ```
 jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
 30
