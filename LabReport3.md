@@ -140,6 +140,7 @@ jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
 ./biomed/1471-2148-1-4.txt:          should be addressed to S.B.H. (e-mail: sbh1@psu.edu) or
 jake@Jakes-MacBook-Pro technical %
 ```
+Explanation: This command searches for email addresses within the `./technical` directory. The pattern `"@."` matches common email structures. This is useful for extracting contact information from documents, which can then be used for data analysis and is convenient when compiling and managing a list of contacts or verifying email formats within a dataset.
 
 Option 2: `grep -i` (Case Insensitive Search):
 The `grep -i` option performs a case insensitive search. THis is useful when the case of the letters should not affect the desired search results.
@@ -152,6 +153,7 @@ jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
         ambulatory care for asthma, making this an unlikely
 jake@Jakes-MacBook-Pro biomed %
 ```
+Explanation: This command searches for the term "ambulatory" in a case-insensitive manner in the file `rr37.txt` within the `./biomed` directory. This is useful to find all instances of a word regardless of case, ensuring no relevant information is missed (expecially in situations where the case of the text is inconsistent, such as text message history/logs).
 
 * Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the `911report` subdirectory for all lines that contain the string `"lethal"`.
 ```
@@ -160,6 +162,7 @@ jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
             We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
 jake@Jakes-MacBook-Pro 911report %
 ```
+Explanation: This command searches for the term "lethal" in a case-insensitive manner in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including matches that may have different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
 
 Option 3: `grep -c` (Count Matches):
 The `grep -c` option counts the number of lines that match a given pattern. This is useful for determining how many times a pattern occurs in a file.
@@ -170,6 +173,7 @@ jake@Jakes-MacBook-Pro biomed % grep -c "genes" bcr571.txt
 10
 jake@Jakes-MacBook-Pro biomed %
 ```
+Explanation: This command counts the number of lines containing the term "genes" in the file `bcr571.txt` within the `./biomed` directory. This is useful for quantifying the presence of specific terms in a document for data analysis. It is very helpful in determining the frequency of certain keywords in research documents or logs.
 
 * Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word planes.
 ```
@@ -177,6 +181,7 @@ jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
 30
 jake@Jakes-MacBook-Pro 911report %
 ```
+Explanation: This command counts the number of lines containing the term "planes" in the file `chapter-5.txt` within the `./911report` directory. It is useful for determining the frequency of specific terms within a large text. This is very helpful for keyword analysis in large datasets.
 
 Option 4: `grep -v` (Invert Match):
 The `grep -v` opiton inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
