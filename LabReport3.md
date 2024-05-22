@@ -142,7 +142,8 @@ jake@Jakes-MacBook-Pro technical %
 ```
 Explanation: This command searches for email addresses within the `./technical` directory. The pattern `"@."` matches common email structures. This is useful for extracting contact information from documents, which can then be used for data analysis and is convenient when compiling and managing a list of contacts or verifying email formats within a dataset.
 
-Citation: I learned about the `grep -r` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Citation: I learned about the `grep -r` option from:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux
 
 Option 2: `grep -i` (Case Insensitive Search):
 The `grep -i` option performs a case insensitive search. This is useful when the case of the letters should not affect the desired search results.
@@ -166,7 +167,8 @@ jake@Jakes-MacBook-Pro 911report %
 ```
 Explanation: This command searches for the term "lethal", in a case-insensitive manner, in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including those with different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
 
-Citation: I learned about the `grep -i` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Citation: I learned about the `grep -i` option from:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux
 
 Option 3: `grep -c` (Count Matches):
 The `grep -c` option counts the number of lines that match a given pattern. This is useful for determining how many times a pattern occurs in a file.
@@ -187,7 +189,8 @@ jake@Jakes-MacBook-Pro 911report %
 ```
 Explanation: This command counts the number of lines containing the term "planes" in the file `chapter-5.txt` within the `./911report` directory. It is useful for determining the frequency of specific terms within a large text. This is very helpful for keyword analysis in large datasets.
 
-Citation: I learned about the `grep -c` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Citation: I learned about the `grep -c` option from:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux
 
 Option 4: `grep -v` (Invert Match):
 The `grep -v` option inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
@@ -266,7 +269,8 @@ jake@Jakes-MacBook-Pro media %
 ```
 Explanation: This command inverts the search to find lines that do not contain the term "water" in the file `water_fees.txt` within the `./media` directory. It is helpful for focusing on specific aspects of a document while excluding commonly occurring terms. This is very useful in analyzing text where excluding frequent irrelevant terms can highlight more significant information desired. 
 
-Citation: I learned about the `grep -v` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Citation: I learned about the `grep -v` option from:
+https://www.geeksforgeeks.org/grep-command-in-unixlinux
 
 
 
