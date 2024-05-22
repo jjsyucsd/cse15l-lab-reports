@@ -155,7 +155,7 @@ jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
         ambulatory care for asthma, making this an unlikely
 jake@Jakes-MacBook-Pro biomed %
 ```
-Explanation: This command searches for the term "ambulatory" in a case-insensitive manner in the file `rr37.txt` within the `./biomed` directory. This is useful to find all instances of a word regardless of case, ensuring no relevant information is missed (especially in situations where the case of the text is inconsistent, such as text message history/logs).
+Explanation: This command searches for the term "ambulatory" in a case-insensitive manner in the file `rr37.txt` within the `./biomed` directory. This is useful for finding all instances of a word regardless of case, ensuring no relevant information is missed (especially in situations where the case of the text is inconsistent, such as text message history/logs).
 
 * Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the `911report` subdirectory for all lines that contain the string `"lethal"`.
 ```
@@ -164,7 +164,7 @@ jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
             We learned about an enemy who is sophisticated, patient, disciplined, and lethal. The
 jake@Jakes-MacBook-Pro 911report %
 ```
-Explanation: This command searches for the term "lethal" in a case-insensitive manner in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including matches that may have different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
+Explanation: This command searches for the term "lethal", in a case-insensitive manner, in the file `preface.txt` within the `./911report` directory. It helps ensure comprehensive search results by including matches that may have different capitalization. This is useful in research and data analysis where case sensitivity could lead to missing critical information.
 
 Citation: I learned about the `grep -i` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
