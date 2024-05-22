@@ -56,7 +56,7 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 
 For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
-Option 1: `grep -r` (Recursive Search):
+Option 1: `grep -r` (Recursive Search for a pattern in the directory):
 The `grep -r` option searches recursively through all files in a directory and its subdirectories for a specific pattern. This is useful for finding matches in large directories without manually searching each file.
 
 * Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string `"middle-class"`.
