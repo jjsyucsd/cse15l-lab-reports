@@ -145,7 +145,7 @@ Explanation: This command searches for email addresses within the `./technical` 
 Citation: I learned about the `grep -r` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
 Option 2: `grep -i` (Case Insensitive Search):
-The `grep -i` option performs a case insensitive search. THis is useful when the case of the letters should not affect the desired search results.
+The `grep -i` option performs a case insensitive search. This is useful when the case of the letters should not affect the desired search results.
 
 * Example 1: In this example, we use `grep -i` to search the text file `rr37.txt` located in the `biomed` subdirectory for all lines that contain the string `"ambulatory"`.
 ```
@@ -155,7 +155,7 @@ jake@Jakes-MacBook-Pro biomed % grep -i "ambulatory" rr37.txt
         ambulatory care for asthma, making this an unlikely
 jake@Jakes-MacBook-Pro biomed %
 ```
-Explanation: This command searches for the term "ambulatory" in a case-insensitive manner in the file `rr37.txt` within the `./biomed` directory. This is useful to find all instances of a word regardless of case, ensuring no relevant information is missed (expecially in situations where the case of the text is inconsistent, such as text message history/logs).
+Explanation: This command searches for the term "ambulatory" in a case-insensitive manner in the file `rr37.txt` within the `./biomed` directory. This is useful to find all instances of a word regardless of case, ensuring no relevant information is missed (especially in situations where the case of the text is inconsistent, such as text message history/logs).
 
 * Example 2: In this example, we use `grep -i` to search the text file `preface.txt` located in the `911report` subdirectory for all lines that contain the string `"lethal"`.
 ```
@@ -190,7 +190,7 @@ Explanation: This command counts the number of lines containing the term "planes
 Citation: I learned about the `grep -c` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
 Option 4: `grep -v` (Invert Match):
-The `grep -v` opiton inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
+The `grep -v` option inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
 
 * Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the `./plos` subdirectory) for all lines that do not contain the string `"institutions"`.
 ```
@@ -205,7 +205,7 @@ jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt
         comments [2] implied that they took a position on this issue.
 jake@Jakes-MacBook-Pro plos % 
 ```
-Explanation: This command inverts the search to find lines that do not contain the term "insitutions" in the file `pmed.0020191.txt` within the `./plos` directory. This is useful for excluding irrelevant data and focusing on content that does not include specific terms. It is helpful in filtering out unwanted information, making the relevant data easier to access.
+Explanation: This command inverts the search to find lines that do not contain the term "institutions" in the file `pmed.0020191.txt` within the `./plos` directory. This is useful for excluding irrelevant data and focusing on content that does not include specific terms. It is helpful in filtering out unwanted information, making the relevant data easier to access.
 
 * Example 2: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the `media` subdirectory in the `government` subdirectory) for all lines that do not contain the string `"water"`.
 
@@ -264,7 +264,7 @@ yet sure whether Tulare County Water Works will accept renters'
 protest votes at the July 17 meeting
 jake@Jakes-MacBook-Pro media %
 ```
-Explanation: This command inverts the search to find lines that do not contain the term "water" in the file `water_fees.txt` within the `./media` directory. It is helpful for focusin gon specific aspects of a document while excluding commonly occuriing terms. This is very useful in analyzing text where excluding frequent irrelevant terms can highlight more significant information desired. 
+Explanation: This command inverts the search to find lines that do not contain the term "water" in the file `water_fees.txt` within the `./media` directory. It is helpful for focusing on specific aspects of a document while excluding commonly occurring terms. This is very useful in analyzing text where excluding frequent irrelevant terms can highlight more significant information desired. 
 
 Citation: I learned about the `grep -v` option from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
