@@ -175,7 +175,7 @@ jake@Jakes-MacBook-Pro biomed %
 ```
 Explanation: This command counts the number of lines containing the term "genes" in the file `bcr571.txt` within the `./biomed` directory. This is useful for quantifying the presence of specific terms in a document for data analysis. It is very helpful in determining the frequency of certain keywords in research documents or logs.
 
-* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word planes.
+* Example 2: In this example, we use `grep -c` to find the number of lines within the text file `chapter-5.txt` (located in the `./911report` subdirectory) that contain the string `"planes"`. The output tells us there are 30 lines within this text file containing the word planes.
 ```
 jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
 30
@@ -186,7 +186,7 @@ Explanation: This command counts the number of lines containing the term "planes
 Option 4: `grep -v` (Invert Match):
 The `grep -v` opiton inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
 
-* Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the `plos` subdirectory) for all lines that do not contain the string `"institutions"`.
+* Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the `./plos` subdirectory) for all lines that do not contain the string `"institutions"`.
 ```
 jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt 
         The excellent article by Jordan Paradise, Lori B. Andrews, and colleagues, “Ethics.
@@ -199,6 +199,7 @@ jake@Jakes-MacBook-Pro plos % grep -v "institutions" pmed.0020191.txt
         comments [2] implied that they took a position on this issue.
 jake@Jakes-MacBook-Pro plos % 
 ```
+Explanation: This command inverts the search to find lines that do not contain the term "insitutions" in the file `pmed.0020191.txt` within the `./plos` directory. This is useful for excluding irrelevant data and focusing on content that does not include specific terms. It is helpful in filtering out unwanted information, making the relevant data easier to access.
 
 * Example 2: In this example, we use `grep -v` to search the text file `water_fees.txt` (located in the `media` subdirectory in the `government` subdirectory) for all lines that do not contain the string `"water"`.
 
@@ -257,6 +258,7 @@ yet sure whether Tulare County Water Works will accept renters'
 protest votes at the July 17 meeting
 jake@Jakes-MacBook-Pro media %
 ```
+Explanation: This command inverts the search to find lines that do not contain the term "water" in the file `water_fees.txt` within the `./media` directory. It is helpful for focusin gon specific aspects of a document while excluding commonly occuriing terms. This is very useful in analyzing text where excluding frequent irrelevant terms can highlight more significant information desired. 
 
 
 
