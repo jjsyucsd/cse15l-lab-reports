@@ -56,7 +56,7 @@ The fix resolves the issue in the original `reverseInPlace` method by guaranteei
 
 For this portion of the lab report, I chose the command `grep`. I learned about the four interesting command-line options for `grep` I demonstrate below thanks to this GeeksForGeeks page: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#options-available-in-grep-command
 
-Option 1: `grep -r` (Recursive Search)
+Option 1: `grep -r` (Recursive Search):
 The `grep -r` option searches recursively through all files in a directory and its subdirectories for a specific pattern. This is useful for finding matches in large directories without manually searching each file.
 
 * Example 1: In this example, we use `grep -r` to search all text files within `./technical` (including text files contained within subdirectories) for the string `"middle-class"`.
@@ -140,7 +140,7 @@ jake@Jakes-MacBook-Pro technical % grep -r "@.*\." .
 jake@Jakes-MacBook-Pro technical %
 ```
 
-Option 2: `grep -i` (Case Insensitive Search)
+Option 2: `grep -i` (Case Insensitive Search):
 The `grep -i` option performs a case insensitive search. THis is useful when the case of the letters should not affect the desired search results.
 
 * Example 1: In this example, we use `grep -i` to search the text file `rr37.txt` located in the `biomed` subdirectory for all lines that contain the string `"ambulatory"`.
@@ -160,7 +160,7 @@ jake@Jakes-MacBook-Pro 911report % grep -i "lethal" preface.txt
 jake@Jakes-MacBook-Pro 911report %
 ```
 
-Option 3: `grep -c` (Count Matches)
+Option 3: `grep -c` (Count Matches):
 The `grep -c` option counts the number of lines that match a given pattern. This is useful for determining how many times a pattern occurs in a file.
 
 * Example 1: In this example, we use `grep -c` to find the number of lines within the text file `bcr571.txt` (located in the `biomed` subdirectory) that contain the string `"genes"`. The output tells us there are 10 lines within the text file containing the word genes.
@@ -177,7 +177,7 @@ jake@Jakes-MacBook-Pro 911report % grep -c "planes" chapter-5.txt
 jake@Jakes-MacBook-Pro 911report %
 ```
 
-Option 4: `grep -v` (Invert Match)
+Option 4: `grep -v` (Invert Match):
 The `grep -v` opiton inverts the match, and displays all lines that do not contain the specified pattern. This is useful for excluding certain patterns from the search results.
 
 * Example 1: In this example, we use `grep -v` to search the text file `pmed.0020191.txt` (located in the `plos` subdirectory) for all lines that do not contain the string `"institutions"`.
