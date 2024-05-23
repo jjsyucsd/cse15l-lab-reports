@@ -51,7 +51,7 @@ A. ![Image](LabReport4Image3.png)
 
 B. For this step, I typed `cd<space>lab7` followed by `<enter>` then `bash<space>test.sh` followed by `<enter>`.
 
-C. The command `cd lab7` navigates to the correct directory which contains the tests. The command `bash test.sh` runs the `test.sh` file which contains the tests.
+C. The command `cd lab7` navigates to the correct directory which contains the tests. The command `bash test.sh` runs the `test.sh` file. From the output, we can determine that one test fails.
 
 ## Step 7: Edit the code file to fix the failing test
 
@@ -70,6 +70,14 @@ C. The command `vim ListExamples.java` opens the file `ListExamples.java` in Vim
 ## Step 8: Run the tests, demonstrating that they now succeed
 
 A. ![Image](LabReport4Image6.png)
+
+B. For this step, I typed in the command line `bash<space>test.sh<enter>`.
+
+C. The command `bash test.sh` runs the `test.sh` file. From the output, we can determine that all tests pass.
+
+## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+A.
 
 B.
 
