@@ -55,9 +55,17 @@ C. The command `cd lab7` navigates to the correct directory which contains the t
 
 ## Step 7: Edit the code file to fix the failing test
 
-A.
+A. ![Image](LabReport4Image4.png)
+![Image](LabReport4Image5.png)
 
-B.
+B. For this step, these are the exact keys I pressed:
+`vim ListExamples.java <enter>` 
+`<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j>` 
+`<l><l><l><l><l><l><l><l><l><l><l>`
+`<r><2>`
+`:wq <Enter>`
+
+
 
 C.
 
