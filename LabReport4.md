@@ -47,6 +47,14 @@ C. This step clones my fork of the Lab 7 repository to my remote ieng6 machine.
 
 ## Step 6: Run the tests, demonstrating that they fail
 
+A. ![Image](LabReport4Image3.png)
+
+B. For this step, I typed `cd lab7` followed by `<enter>` then `bash test.sh` followed by `<enter>`.
+
+C. The command `cd lab7` navigates to the correct directory which contains the tests. The command `bash test.sh` runs the `test.sh` file which contains the tests.
+
+## Step 7: Edit the code file to fix the failing test
+
 A.
 
 B.
