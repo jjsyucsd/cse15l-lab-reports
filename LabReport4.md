@@ -79,7 +79,7 @@ C. The command `bash test.sh` runs the `test.sh` file. From the output, we can d
 
 A. ![Image](LabReport4Image7.png)
 
-B.
+B. For this step, I typed `git<space>add<space>.<enter>` followed by `git<space>status<enter>` followed by `git<space>commit<space>-m<space>"Debugged<space>ListExamples.java"<enter>` followed by `git<space>push<enter>` in the command line to commit and push the resulting change to my Github account with the commit message `"Debugged ListExamples.java"`.
 
 C.
 
