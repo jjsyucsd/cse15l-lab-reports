@@ -21,7 +21,7 @@ For each step, I will:
 
 A. Take a screenshot
 
-B. Write down exactly which keys you pressed to get to that step, including <enter> and <space>
+B. Write down exactly which keys you pressed to get to that step.
 
 C. Summarize the commands you ran and what the effect of those keypresses were.
 
