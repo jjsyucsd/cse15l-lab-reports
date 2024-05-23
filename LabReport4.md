@@ -77,7 +77,7 @@ C. The command `bash test.sh` runs the `test.sh` file. From the output, we can d
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-A.
+A. ![Image](LabReport4Image7.png)
 
 B.
 
