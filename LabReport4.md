@@ -59,13 +59,19 @@ A. ![Image](LabReport4Image4.png)
 ![Image](LabReport4Image5.png)
 
 B. For this step, these are the exact keys I pressed:
-`vim ListExamples.java <enter>` 
+`vim<space>ListExamples.java<enter>` 
 `<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j>` 
 `<l><l><l><l><l><l><l><l><l><l><l>`
 `<r><2>`
-`:wq <Enter>`
+`:wq<Enter>`
 
+C. The command `vim ListExamples.java` opens the file `ListExamples.java` in Vim for editing. By default the cursor is placed at the start of the file, so we press `<j>` 44 times to get to the beginning of desired line we would like to edit. Then we press `<l>` 11 times to move the cursor down the line until we reach the desired character we want to edit. Now that our cursor is hovering over the `1` in `index1`, we press `<r>` to replace the highlighted character `1`. Since we want to change `index1` to `index2`, we then press `<2>` to replace the highlighted character `1` with the character `2`. Now that the desired change has been successfully made, we press `:wq` followed by `<enter>` to write/save the changes we made to `ListExamples.java` and quit Vim. This returns us to the command line. 
 
+## Step 8: Run the tests, demonstrating that they now succeed
+
+A. ![Image](LabReport4Image6.png)
+
+B.
 
 C.
 
