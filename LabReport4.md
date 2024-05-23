@@ -24,9 +24,12 @@ For each step, I will:
 2. Write down exactly which keys you pressed to get to that step, including <enter> and <space>
 
 3. Summarize the commands you ran and what the effect of those keypresses were.
-4. 
+
 Citation: https://ucsd-cse15l-s24.github.io/week7/index.html
 ---
+## Baseline:
+
+Step 4: Log into ieng6
 
 
 
