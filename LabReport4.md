@@ -41,15 +41,15 @@ C. This step ensures that the repository will be cloned to the correct location 
 
 A. ![Image](LabReport4Image2.png)
 
-B. For this step, I typed `git clone git@github.com:jjsyucsd/lab7.git` followed by `<enter>` in the command line to clone my fork of the repository from my Github account (using the `SSH` URL).
+B. For this step, I typed `git<space>clone<space>git@github.com:jjsyucsd/lab7.git` followed by `<enter>` in the command line to clone my fork of the repository from my Github account (using the `SSH` URL).
 
-C. This step clones my fork of the Lab 7 repository to my remote ieng6 machine. 
+C. The step clones my fork of the Lab 7 repository to my remote ieng6 machine. 
 
 ## Step 6: Run the tests, demonstrating that they fail
 
 A. ![Image](LabReport4Image3.png)
 
-B. For this step, I typed `cd lab7` followed by `<enter>` then `bash test.sh` followed by `<enter>`.
+B. For this step, I typed `cd<space>lab7` followed by `<enter>` then `bash<space>test.sh` followed by `<enter>`.
 
 C. The command `cd lab7` navigates to the correct directory which contains the tests. The command `bash test.sh` runs the `test.sh` file which contains the tests.
 
