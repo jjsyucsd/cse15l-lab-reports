@@ -29,7 +29,7 @@ Citation: https://ucsd-cse15l-s24.github.io/week7/index.html
 ---
 ## Baseline:
 
-Step 4: Log into ieng6
+#Step 4: Log into ieng6
 
 A. ![Image](LabReport4Image1.png)
 
@@ -37,7 +37,7 @@ B. For this step, I typed `cs15lsp24` followed by `<enter>` in the command line 
 
 C. This step ensures that the repository will be cloned to the correct location in the next step.
 
-Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
+#Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
 A. ![Image](LabReport4Image2.png)
 
@@ -45,7 +45,7 @@ B. For this step, I typed `git clone git@github.com:jjsyucsd/lab7.git` followed 
 
 C. This step clones my fork of the Lab 7 repository to my remote ieng6 machine. 
 
-Step 6: Run the tests, demonstrating that they fail
+#Step 6: Run the tests, demonstrating that they fail
 
 A.
 
