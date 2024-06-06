@@ -127,7 +127,6 @@ Since filtered list is empty, the `StringChecker` might not be working as expect
 -  lib
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
-
 ```
 - The contents of each file: https://github.com/jjsyucsd/grader-review-jjsy
 - The full command line (or lines) you ran to trigger the bug
