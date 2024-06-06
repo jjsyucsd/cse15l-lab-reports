@@ -102,7 +102,7 @@ Tests run: 3,  Failures: 1
 Grade: 66%
 ```
 2) A response from a TA asking a leading question or suggesting a command to try.
-Response: There may ben an issue with the implementation of the filter method in `ListExamples.java`. Can you print out the filtered list inside the filter method to check what elements are being added?
+Response: There may been an issue with the implementation of the filter method in `ListExamples.java`. Can you print out the filtered list inside the filter method to check what elements are being added?
 
 3) Another terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 Here is the new output:
