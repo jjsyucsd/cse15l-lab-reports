@@ -117,8 +117,7 @@ java.lang.AssertionError: expected:<[apple, apricot, banana]> but was:<[]>
 Since filtered list is empty, the `StringChecker` might not be working as expected. 
 
 5) At the end, all the information needed about the setup including:
-- The file & directory structure needed:
-```
+The file & directory structure needed:
 -  GradeServer.java
 -  ListExamples.java
 -  Server.java
@@ -127,7 +126,7 @@ Since filtered list is empty, the `StringChecker` might not be working as expect
 -  lib
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
-```
+
 - The contents of each file: https://github.com/jjsyucsd/grader-review-jjsy
 - The full command line (or lines) you ran to trigger the bug
 - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.git`
