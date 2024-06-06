@@ -5,7 +5,7 @@ UCSD CSE15L Spring 2024 - Week 10
 
 This portion of the lab report is written as a conversation on Piazza containing:
 
-1) The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
+1) The original post from a student with a terminal output showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is.
 
 Title: Issue with Running grade.sh Script - Incorrect Test Results
 
