@@ -10,7 +10,7 @@ This portion of the lab report is written as a conversation on Piazza containing
 Title: Issue with Running grade.sh Script - Incorrect Test Results
 
 Body: 
-Hello, I am having trouble running the `grade.sh` script. It fails some tests in `TestListExapmles.java`; here is the content of my `grade.sh` script: 
+Hello, I am having trouble running the `grade.sh` script. It fails some tests in `TestListExamples.java`; here is the content of my `grade.sh` script: 
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -119,19 +119,15 @@ Since filtered list is empty, the `StringChecker` might not be working as expect
 5) At the end, all the information needed about the setup including:
 - The file & directory structure needed:
 ```
-GradeServer.java
-
-ListExamples.java
-
-Server.java
-
-TestListExamples.java
-
-Grade.sh
-
-lib
+-  GradeServer.java
+-  ListExamples.java
+-  Server.java
+-  TestListExamples.java
+-  grade.sh
+-  lib
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
+
 ```
 - The contents of each file: https://github.com/jjsyucsd/grader-review-jjsy
 - The full command line (or lines) you ran to trigger the bug
