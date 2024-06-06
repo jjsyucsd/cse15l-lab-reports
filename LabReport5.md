@@ -135,6 +135,6 @@ Since filtered list is empty, the `StringChecker` might not be working as expect
 
 ---
 ## Part 2 - Reflection
-I found Vim to be facinating as it allows for increacing efficiency by bypassing the mouse as an input device. I still am slower with the keyboard but strive to learn shortcuts that allow me to traverse my code faster. I hope to continue using Vim with other programming languages in classes next year to become even quicker without reliance on the mouse.
+In the second half of this quarter, I started using Vim and found it to be a really powerful text editor. It has the potential to be more efficient by using the keyboard instead of a mouse. I'm still starting the learing curve, but I'm planning to learn more shortcuts that will allow for faster traversal through code. I plan to keep using Vim in my future classes to develop the habit and be less dependent on the mouse. This experience has shown me that with the right system, I can streamline productivity, and I'm looking forward to seeing how long it will take to master Vim.
 
 
