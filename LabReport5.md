@@ -120,10 +120,15 @@ Since filtered list is empty, the `StringChecker` might not be working as expect
 - The file & directory structure needed:
 ```
 GradeServer.java
+
 ListExamples.java
+
 Server.java
+
 TestListExamples.java
+
 Grade.sh
+
 lib
     - hamcrest-core-1.3.jar
     - junit-4.13.2.jar
