@@ -136,4 +136,6 @@ Can be found on: https://github.com/jjsyucsd/grader-review-jjsy
 
 ---
 ## Part 2 - Reflection
+I found Vim to be facinating as it allows for increacing efficiency by bypassing the mouse as an input device. I still am slower with the keyboard but strive to learn shortcuts that allow me to traverse my code faster. I hope to continue using Vim with other programming languages in classes next year to become even quicker without reliance on the mouse.
+
 
