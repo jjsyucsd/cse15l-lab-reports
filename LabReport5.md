@@ -114,7 +114,7 @@ java.lang.AssertionError: expected:<[apple, apricot, banana]> but was:<[]>
 	at org.junit.Assert.assertEquals(Assert.java:120)
 	at TestListExamples.testFilter_allMatch(TestListExamples.java:20)
 ```
-Since filtered lislt is empty, the `StringChecker` might not be working as expected. 
+Since filtered list is empty, the `StringChecker` might not be working as expected. 
 
 5) At the end, all the information needed about the setup including:
 - The file & directory structure needed:
